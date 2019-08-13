@@ -173,3 +173,34 @@ typeof null     //object
 null === undefined  // false
 null == undefined // true
 ```
+
+**Primitive Data**
+ 
+The typeof return one of : string, number, boolean, undefined
+
+**Complex Data**
+
+the typeof return one of : function , object
+
+```javascript
+typeof {name:"Qi", age: 34} // return object
+typeof [1,2,3,4]            // return object (not "array"), note in js, array is object
+typeof null                 // return object
+typeof function myFunc(){}  // return function
+```
+
+## JS Functions
+
+**JS function Syntax**
+
+A JS function is defined with **function** keyword, followed by a name, followed by parenthese().
+
+function name can contain letters, digits, underscores, and dollar signs, the parantheses may include parameter names separated by commas: (parameter1, parameter2, ...)
+
+```javascript
+function name (parameter1, parameter2, parameter3){
+  // code to be executed
+}
+```
+
+when js function reaches a **return** statement, the function will stop executing.

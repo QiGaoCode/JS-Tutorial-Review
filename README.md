@@ -150,4 +150,26 @@ var person = {firstName: "Qi", lastName: "Gao", age:50, eyeColor: "black"};
 typeof "" // output "string"
 typeof 3.14 // output "number"
 car = undefined; // value is undefined, type is undefined.
+var car = ""; // the value is "", but the type is "string".
+```
+**Null**
+
+In JS, null is nothing. the data type of null is an object
+
+```javascript
+var person = {firstname: "QI", lastName: "Gao"};
+person = null; // now value is null, but type is still an object
+
+var person = {firstname: "QI", lastName: "Gao"};
+person = undefined; // now both value and type is undefined
+```
+
+**Difference Betweeen undefined and null
+
+```javascript
+typeof undefined    //undefined
+typeof null     //object
+
+null === undefined  // false
+null == undefined // true
 ```

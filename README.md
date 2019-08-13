@@ -17,5 +17,14 @@ External JavaScript Advantages
 
 Use
 ```javascript
-<script src = "myScript1.js"> ... </script>
+<script src = "myScript1.js"> ... </script> 
+// External Scripts can be referenced with a full URL or with a path relative to the current web page
 ```
+
+## JS Output
+
+- write into HTML element, using innerHTML.
+- write into the HTML output, using document.write().
+- write into an alert box, using window.alert().
+- write into the browser console, using console.log().
+

@@ -62,3 +62,13 @@ return |	Exits a function
 switch |	Marks a block of statements to be executed, depending on different cases
 try ... catch |	Implements error handling to a block of statements
 var |	Declares a variable
+
+## JS Syntax
+
+JavaScript Syntax defines two type of values : Fixed values and variable values.
+
+Fixed values are called literals, variable values are valled variables.
+
+**JS Literals**
+numbers are written with or without decimals.
+

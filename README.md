@@ -70,5 +70,11 @@ JavaScript Syntax defines two type of values : Fixed values and variable values.
 Fixed values are called literals, variable values are valled variables.
 
 **JS Literals**
-numbers are written with or without decimals.
+
+numbers are written with or without decimals. EX: 10.50  1001
+
+Strings are text, written within double or single quotes. EX: "Eric", 'Eric'.
+
+
+**JavaScript and Camel Case**
 

@@ -28,3 +28,10 @@ Use
 - write into an alert box, using window.alert().
 - write into the browser console, using console.log().
 
+Example:
+
+```javascript
+document.getElementById("demo").innerHTML = 5 + 6;
+document.write(5+6);
+//for testing purpose, Note, Using document.write() after an HTML document is loaded, will delete all existing HTML.
+```

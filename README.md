@@ -103,6 +103,8 @@ sdasdadasdasd
 
 ## JS Variables
 
+JS have many data types: numbers, strings, objects, boolean
+
 a variable declared without a value will have the value undefined.
 
 ```javascript
@@ -113,5 +115,39 @@ var x = 2 + 3 + "5";
 // output "55"
 ```
 
+## JS Data Types
 
+```javascript
+var length = 16;      // Number
+var lastName = "Gao"; // String
+var x = {firstName: "Qi", lastName: "Gao"}; // Object
+```
 
+Note JavaScript has dynamic types. which means same variable can be used to hold different data types.
+
+**JS Arrays**
+
+arrays are written with square brackets. []
+
+array items are separated by commas.
+
+```javascript
+var cars = ['bmw','volvo','audi'];
+```
+
+**JS Objects**
+
+objects are written with curly braces {}.
+
+object properties are written as name: value pairs, separated by commas.
+
+```javascript
+var person = {firstName: "Qi", lastName: "Gao", age:50, eyeColor: "black"};
+```
+
+**typeof Operator**
+```javascript
+typeof "" // output "string"
+typeof 3.14 // output "number"
+car = undefined; // value is undefined, type is undefined.
+```

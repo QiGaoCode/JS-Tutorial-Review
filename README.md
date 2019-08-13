@@ -93,7 +93,25 @@ Javascript tend to use camel case that start with a lowercase letter: EX: firstN
 //
 
 /*
+
 asdnalsjdlkasjdasdnaskdhlasjdklas
+
 sdasdadasdasd
+
 */
+
+
+## JS Variables
+
+a variable declared without a value will have the value undefined.
+
+```javascript
+var carName; // carName undefined
+var x = "5" + 2 + 3 ;
+// output 523, if put a number in quotes, the rest of numbers will be treated as strings, and concatednated.
+var x = 2 + 3 + "5";
+// output "55"
+```
+
+
 

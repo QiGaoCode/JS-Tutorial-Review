@@ -35,3 +35,11 @@ document.getElementById("demo").innerHTML = 5 + 6;
 document.write(5+6);
 //for testing purpose, Note, Using document.write() after an HTML document is loaded, will delete all existing HTML.
 ```
+
+## JS Statement
+
+A JavaScript program is a list of programming statements, and is executed by the web browser.
+
+Values, Operators, Expressions, Keyword, and Comments.
+
+#### Semicolons:

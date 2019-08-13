@@ -40,6 +40,6 @@ document.write(5+6);
 
 A JavaScript program is a list of programming statements, and is executed by the web browser.
 
-Values, Operators, Expressions, Keyword, and Comments.
+**Values, Operators, Expressions, Keyword, and Comments**
 
-#### Semicolons:
+

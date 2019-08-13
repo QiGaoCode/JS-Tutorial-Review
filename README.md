@@ -78,3 +78,21 @@ Strings are text, written within double or single quotes. EX: "Eric", 'Eric'.
 
 **JavaScript and Camel Case**
 
+Hyphens: (连字符） are not allowed in JavaScript, they are reserved for subtractions. ex: first-name
+
+undersocre: _  
+
+Upper Camel Case ( pascal case) 
+
+Lower Camel Case:
+
+Javascript tend to use camel case that start with a lowercase letter: EX: firstName.
+
+## JS comments
+
+//
+
+/*
+asdnalsjdlkasjdasdnaskdhlasjdklas
+*/
+

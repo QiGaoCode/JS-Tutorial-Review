@@ -93,10 +93,7 @@ Javascript tend to use camel case that start with a lowercase letter: EX: firstN
 //
 
 /*
-
 asdnalsjdlkasjdasdnaskdhlasjdklas
-
 sdasdadasdasd
-
 */
 

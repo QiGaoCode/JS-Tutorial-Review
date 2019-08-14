@@ -275,6 +275,8 @@ when a js variable is declared with keyword **new**, the variable is created as 
 
 ## JS events.
 
+**JS Reference HTML DOM Events for more details**
+
 Event | Description
 --- | ---
 onchange	 | An HTML element has been changed
@@ -283,3 +285,84 @@ onmouseover |	The user moves the mouse over an HTML element
 onmouseout |	The user moves the mouse away from an HTML element
 onkeydown	| The user pushes a keyboard key
 onload	| The browser has finished loading the page
+
+## JS String Method
+
+String methods help to work with strings,
+
+Note, in JS, methods and properties are available to primitive values, because JS treats primitive values as objects when executing methods and properties.
+
+```javascript
+var txt = "GQ is good at study, GQ";
+// the length property returns the length of a string
+var len = txt.length;
+
+// the indexOf() method returns the index of ( position of ) the first occurrence of a text
+var pos = txt.indexOf("is"); // output 3, space also account, position start from 0.
+
+
+// the lastIndexOf() returns the index of last occurence
+
+var pos1 = txt.lastIndexOf("is"); // output 22
+// note both indexOf(),lastIndexOf() return -1 if the text is not found.
+// both method accepts a second parameter as the starting position. ex . lastIndexOf("is", 15); 15 is the start postion.
+
+// search() method search a string for a specified value and returns the position of match.
+var pos3 = txt.search("is");
+
+// slice(start,end)
+var res = txt.slice(0,2) // output GQ 
+// if the parameter is negative, the position is counted from the end of the string.
+
+// substring(start,end)
+var res1 = txt.substring(0,2) // output GQ , the difference is that substring do not accept negative value.
+
+// substr(start, end)
+// similar to slice(), but the second parameter specifies the length of the extracted part.
+var res2 = txt.substr(0,1) // output "G"
+// if first parameter is negative, position counts from the end of the string
+
+// replace() methods replace the value with another value
+var txt1 = txt.replace("GQ","Helen"); 
+// by default, replace() is case sensitive.
+// to replace case insensetive, use regular expression with an /i flag(insensitive):
+var txt1 = txt.replace(/GQ/i, "Helen);
+// to replace all matches, use a regular expression with a /g flag(global match)
+var str = "GQ GQ is good";
+var n  = str.replace(/GQ/g, "Helen");
+
+// toUpperCase()
+// toLowerCase()
+
+// concat() joints two or more strings:
+var txt5 = "Hello";
+var txt6 = "World";
+var txt7 = txt5.concat("",txt6);
+
+// trim() remove whitespaces from both sides of a string
+var ex = "         Hello World              ";
+ex.trim();
+
+// Extarcting String Character
+// charAt(position) RETURN TEH character at index
+// charCodeAt(position) return the unicode of the character 
+// property Access []
+
+txt.charAt(0); // return "G"
+txt[0]; // return "G"
+```
+
+**Converting A String to an Array
+
+use split() method
+
+```javascript
+var ex1 = "a,b,c,d"; // string
+ex1.split(","); //split on commas
+ex1.split(" "); //split on space
+ex1.split("|"); //split on pipe
+
+var ex2 = "hello" 
+ex2.split("") // split in character
+
+```

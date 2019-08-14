@@ -415,4 +415,112 @@ x.valueOf(); // return 123 from x
 
 ```
 
+**Converting Variable to Numbers**
+- the Number() method
+- the parseInt() method
+- the parseFloat() method
 
+
+```javascript
+Number(true); // return 1
+Number(false); // return 0
+Number("10"); // return 10
+Number("19,33") // return NaN
+
+
+// parseInt() parses a string and returns a whole number. spaces are allowed. only the first number is returned
+parseInt("10"); // output 10
+parseInt("10.33") // output 10
+parseInt("10 29 30") // output 10
+parseInt("year 10") // output NaN
+```
+
+## Arrays
+
+var array_name = [item1, item2, item3, ....];
+
+var array_name = new Array(item1, item2, item3, ...);
+
+Note Arrays are a special type of object.
+
+Arrays use numbers to access its element, ex, person[0] return John
+
+var person = ["John","Doe",43];
+
+Array use names to access its element. person.firstName returns John
+
+var person = {firstName: "John", lastName: "Doe", age: 43};
+
+**Looping Array Elements**
+
+- for loop
+
+- Array.forEach()
+ ```javascript
+ var fruits, text;
+ fruits = ["Banada", "Orange","Apple"];
+ 
+ fruits.forEach(myFunction);
+ 
+ function myFunction(value){
+   text += value;
+ }
+ ```
+push() method to add array element
+
+In JS, arrays use numbered indexes. should use arrays when you want element names to be numbers.
+
+In JS, objects use named indexes. should use objects when you want the element names to the strings(text).
+
+## Array Method
+
+toString() converts an array to a string of array values,
+
+pop() remove the last element, return the value that was popped out
+
+push() add element to array, return the new array length
+
+shift() remove the first element, return the string that was shiffed out.
+
+unshift(item) add new element to array at first, and return the new length
+
+splice() add new items to an array.
+
+var fruits = ["Banana","Orange","Apple","Mango"];
+fruits.splice(2,0,"Lemon","kiwi");
+
+first parameter define position where new element add,
+
+second parameter define how many elements should be removed.
+
+use splice() to remove elements without leaving holes in array,
+
+concat() creates a new array by merging existing arrays.
+
+var A = ["1"];
+var B = ["2"];
+var c = A.concat(B);
+
+slice() slices out a piece of an array into a new array.
+
+slice (number)  or slice(number, number) 
+
+sort()
+
+reverse()
+
+sort ascending
+
+var points = [1,2,3,4,5,6,7,8]
+points.sort(function(a,b){return a - b});
+
+points.sort(function(a,b){return b - a});
+
+Math.max.apply(null, arr) to find the highest number
+
+Math.min.apply(null, arr) to find the lowest number.
+
+
+
+
+## Array Iteration

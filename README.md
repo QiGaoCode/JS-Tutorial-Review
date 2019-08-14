@@ -366,3 +366,53 @@ var ex2 = "hello"
 ex2.split("") // split in character
 
 ```
+
+## JS numbers
+
+NaN - not a number
+
+**NaN** is a JavaScript reserved word indicating that a number is not a legal number.
+
+typeof NaN returns number
+
+**Infinity** is the value JavaScript will return if you calculate a number outside the largest possible number
+
+typeof Infinity return number
+
+Number can be objects
+
+var x = 123;
+
+var y = new Number(123);
+
+## JS number methods
+
+The toString() method returns a number as string
+
+The toExponential() method
+
+```javascript
+
+var x = 9.656
+x.toExponential(2); // return 9.66e+0
+x.toExponential(4); // return 9.6560e+0
+
+// the toFixed() method
+// toFixed() return a string, with the number written with a specified number of decimals:
+var x = 9.656;
+x.toFixed(0); // return 10
+x.toFixed(2); // return 9.66
+x.toFixed(4); // return 9.6560
+
+// toPrecision() method
+// toPrecision() returns a string, with a number written with a specified length
+x.toPrecision(); // return 9.656
+x.toPrecision(2);// return 9.7
+
+// valueOf() Method
+// valueOf() return a number as a number
+x.valueOf(); // return 123 from x
+
+```
+
+

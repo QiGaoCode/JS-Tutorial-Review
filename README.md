@@ -204,3 +204,73 @@ function name (parameter1, parameter2, parameter3){
 ```
 
 when js function reaches a **return** statement, the function will stop executing.
+
+**Why use Functions**
+
+- can reuse the code
+- can use the same code many times with different arguments, to produce different results.
+
+**() operator invokes the function
+
+```javascript
+function add(resuilt){
+ return (5/9)*(result - 32);
+}
+document.getElementById("demo").innerHTML = add;
+```
+
+Note access a function without () will only return the function definition instead of function result.
+
+**Local Variable**
+```javascript
+// cannot use carName
+
+function myFunction(){
+  var carName = "Volvo";
+  // code here can use carName
+}
+
+// cannot use carName
+```
+
+## JavaScript Objects
+
+**Object Definition**
+
+define a JavaScript object with an object literal
+
+```javascript
+var person = {
+ firstName : "Qi",
+ lastName: "Gao",
+ age: 40,
+ eyecolor: "Black"
+};
+```
+
+**Access Object Properties**
+
+objectName.propertyName
+
+or
+
+objectName["peopertyName"]
+
+
+**The this keyword**
+
+in a function definition, this refer to the owner of the function,
+
+- in a method, this refer to the owner object
+- alone, this refer to the global object.
+- in a function, this refer to the global object.
+- in a function, in strict mode, this is undefined.
+- in an event, this refer to the element that received the event
+- methods like call(), apply(), can refer this to any object.
+
+
+**Do not declare strings, numbers, booleans, as objects**
+
+when a js variable is declared with keyword **new**, the variable is created as an object.
+
+## JS events.

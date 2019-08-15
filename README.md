@@ -525,3 +525,26 @@ Math.min.apply(null, arr) to find the lowest number.
 
 ## Array Iteration
 
+## JavaScript Type Conversion
+
+5 different data types that can contain values:
+-string
+-number
+-boolean
+-object
+-function
+
+6 types of object
+-object
+-Date
+-Array
+-String
+-Number
+-Boolean
+
+2 data type cannot contain values:
+-null
+-undefined
+
+
+

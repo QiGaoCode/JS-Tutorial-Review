@@ -552,3 +552,35 @@ Math.min.apply(null, arr) to find the lowest number.
 
 
 
+## JavaScript Hoisting
+
+Hoisting is JavaScript default behavior of moving declaration to the top of the current scope.
+
+**Javascript Declarations are Hoisted**
+
+In javascript, a variable can be declared after it has been used.
+in other words, a variable can be used before it has been declared.
+
+```javascript
+x = 5; // Assign 5 to x
+
+elem = document.getElementById("demo"); // Find an element 
+elem.innerHTML = x;                     // Display x in the element
+
+var x; // Declare x
+
+```
+
+note variables and constants declared with let or const are not hoisted.
+
+**JavaScript initializations are not HOisted**
+
+```javascript
+var x = 5; // Initialize x
+
+elem = document.getElementById("demo"); // Find an element 
+elem.innerHTML = x + " " + y;           // Display x and y  output:x is 5 and y is undefined
+
+var y = 7; // Initialize y
+```
+

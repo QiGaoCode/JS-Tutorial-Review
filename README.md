@@ -248,6 +248,7 @@ var person = {
 };
 ```
 
+
 **Access Object Properties**
 
 objectName.propertyName

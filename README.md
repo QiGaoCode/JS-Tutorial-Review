@@ -7,6 +7,7 @@ HTML: define the content of the web pages
 
 CSS: Specify the layout of the web pages
 
+
 JavaScript: program the behavior of the web pages.
 
 ## JS where to

@@ -3,6 +3,7 @@ The summary of the JavaScript
 
 # JS Tutorial
 
+
 HTML: define the content of the web pages
 
 CSS: Specify the layout of the web pages
